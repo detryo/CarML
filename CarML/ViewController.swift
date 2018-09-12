@@ -9,17 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    override var prefersStatusBarHidden: Bool {
+        return true // true para ocultar y false para no ocultarla
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
